@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Site Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #333; color: white; text-align: center; padding: 1em 0; }
+    nav { background-color: #444; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; }
+    section { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue sur Mon Site Web</h1>
+  </header>
+
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">À propos</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Présentation</h2>
+      <p>Ceci est un site web d’exemple créé en HTML. Il peut servir de base pour développer un site plus complexe avec CSS, JS, ou PHP.</p>
+    </section>
+
+    <section>
+      <h2>Nos Services</h2>
+      <ul>
+        <li>Création de sites web</li>
+        <li>Design graphique</li>
+        <li>Consulting digital</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
 
